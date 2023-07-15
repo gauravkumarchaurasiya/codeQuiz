@@ -1,0 +1,178 @@
+[
+    {
+      "question": "What will be the output of the following code?",
+      "code": "print(2 + 3)",
+      "output": "5",
+      "description": "The code adds 2 and 3 and prints the result, which is 5.",
+      "level": "beginner"
+    },
+    {
+      "question": "What is the output of the following code?",
+      "code": "x = 5\ny = x * 2\nprint(y)",
+      "output": "10",
+      "description": "The code assigns the value 5 to variable x, multiplies x by 2, assigns the result to variable y, and prints the value of y, which is 10.",
+      "level": "beginner"
+    },
+    {
+      "question": "What will be the output?",
+      "code": "numbers = [1, 2, 3]\nfor num in numbers:\n    print(num)",
+      "output": "1\n2\n3",
+      "description": "The code defines a list of numbers and then iterates over each number in the list using a for loop. It prints each number on a separate line.",
+      "level": "beginner"
+    },
+    {
+      "question": "What is the output of the following code?",
+      "code": "x = 10\nif x > 5:\n    print('Greater than 5')",
+      "output": "Greater than 5",
+      "description": "The code assigns the value 10 to variable x and then checks if x is greater than 5. Since x is indeed greater than 5, it prints 'Greater than 5'.",
+      "level": "beginner"
+    },
+    {
+      "question": "What will be printed by the following code?",
+      "code": "def say_hello(name):\n    print('Hello, ' + name)\nsay_hello('Alice')",
+      "output": "Hello, Alice",
+      "description": "The code defines a function called say_hello that takes a name parameter and prints a greeting message using the provided name. It then calls the function with the argument 'Alice', resulting in the output 'Hello, Alice'.",
+      "level": "beginner"
+    },
+    {
+      "question": "What will be the output?",
+      "code": "x = 5\nif x < 0:\n    print('Negative')\nelse:\n    print('Non-negative')",
+      "output": "Non-negative",
+      "description": "The code assigns the value 5 to variable x and checks if x is less than 0. Since x is not less than 0, the else block is executed and it prints 'Non-negative'.",
+      "level": "beginner"
+    },
+    {
+      "question": "What is the output of the following code?",
+      "code": "for i in range(3):\n    print(i)",
+      "output": "0\n1\n2",
+      "description": "The code uses a for loop to iterate over the range from 0 to 2. It prints each number in the range on a separate line.",
+      "level": "beginner"
+    },
+    {
+      "question": "What will be the output of this code?",
+      "code": "x = 5\ny = x ** 2\nprint(y)",
+      "output": "25",
+      "description": "The code assigns the value 5 to variable x and calculates the square of x using the ** operator. It assigns the result to variable y and then prints the value of y, which is 25.",
+      "level": "beginner"
+    },
+    {
+      "question": "What is the output of the following code?",
+      "code": "x = 10\nwhile x > 0:\n    print(x)\n    x -= 1",
+      "output": "10\n9\n8\n7\n6\n5\n4\n3\n2\n1",
+      "description": "The code initializes variable x with the value 10 and enters a while loop. It prints the current value of x on each iteration and then decrements x by 1. The loop continues until x becomes 0, resulting in the output shown.",
+      "level": "beginner"
+    },
+    {
+      "question": "What will be printed by the following code?",
+      "code": "def multiply(a, b):\n    return a * b\nresult = multiply(4, 5)\nprint(result)",
+      "output": "20",
+      "description": "The code defines a function called multiply that takes two parameters and returns their product. It then calls the function with arguments 4 and 5, assigns the result to variable result, and prints the value of result, which is 20.",
+      "level": "beginner"
+    },
+    {
+      "question": "What is the output of this code?",
+      "code": "x = 5\ny = 3\nprint(x + y)",
+      "output": "8",
+      "description": "The code assigns the value 5 to variable x and the value 3 to variable y. It then adds x and y together and prints the result, which is 8.",
+      "level": "easy"
+    },
+    {
+      "question": "What will be the output of the following code?",
+      "code": "numbers = [1, 2, 3, 4, 5]\nprint(numbers[2])",
+      "output": "3",
+      "description": "The code defines a list of numbers and then prints the value at index 2, which is 3. In Python, indexing starts from 0, so the third element has an index of 2.",
+      "level": "easy"
+    },
+    {
+      "question": "What is the output of this code?",
+      "code": "x = 10\nif x % 2 == 0:\n    print('Even')\nelse:\n    print('Odd')",
+      "output": "Even",
+      "description": "The code assigns the value 10 to variable x and checks if x is divisible by 2 with no remainder (i.e., an even number). Since 10 is indeed divisible by 2, it prints 'Even'.",
+      "level": "easy"
+    },
+    {
+      "question": "What will be the output of the following code?",
+      "code": "name = 'Alice'\nprint('Hello, ' + name)",
+      "output": "Hello, Alice",
+      "description": "The code assigns the value 'Alice' to variable name and then concatenates it with the string 'Hello, ' using the + operator. It prints the resulting string, which is 'Hello, Alice'.",
+      "level": "easy"
+    },
+    {
+      "question": "What is the output of this code?",
+      "code": "numbers = [1, 2, 3]\nprint(len(numbers))",
+      "output": "3",
+      "description": "The code defines a list of numbers and then uses the len() function to determine the length of the list, which is the number of elements in it. It prints the result, which is 3.",
+      "level": "easy"
+    },
+    {
+      "question": "What will be printed by the following code?",
+      "code": "x = 5\ny = 2\nprint(x // y)",
+      "output": "2",
+      "description": "The code assigns the value 5 to variable x and the value 2 to variable y. It performs integer division (floor division) using the // operator, which discards the fractional part of the division result. It prints the result, which is 2.",
+      "level": "easy"
+    },
+    {
+      "question": "What is the output of the following code?",
+      "code": "x = 5\nif x > 0:\n    print('Positive')\nelif x < 0:\n    print('Negative')\nelse:\n    print('Zero')",
+      "output": "Positive",
+      "description": "The code assigns the value 5 to variable x and checks if x is greater than 0. Since x is indeed greater than 0, it prints 'Positive'. The elif and else blocks are not executed in this case.",
+      "level": "medium"
+    },
+    {
+      "question": "What will be the output of this code?",
+      "code": "def power(base, exponent):\n    result = 1\n    for i in range(exponent):\n        result *= base\n    return result\nresult = power(2, 4)\nprint(result)",
+      "output": "16",
+      "description": "The code defines a function called power that calculates the power of a number. It takes two parameters: base and exponent. It uses a for loop to multiply the base by itself exponent times and assigns the result to variable result. It then returns the value of result. The code calls the function with arguments 2 and 4, assigns the returned result to variable result, and prints the value of result, which is 16.",
+      "level": "medium"
+    },
+    {
+      "question": "What is the output of the following code?",
+      "code": "x = 10\nwhile x > 5:\n    print(x)\n    x -= 1",
+      "output": "10\n9\n8\n7\n6",
+      "description": "The code initializes variable x with the value 10 and enters a while loop. It prints the current value of x on each iteration and then decrements x by 1. The loop continues until x becomes 5 (since the condition x > 5 is no longer true), resulting in the output shown.",
+      "level": "medium"
+    },
+    {
+      "question": "What will be the output of this code?",
+      "code": "def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n - 1)\nresult = factorial(5)\nprint(result)",
+      "output": "120",
+      "description": "The code defines a recursive function called factorial that calculates the factorial of a number. If the input is 0, it returns 1. Otherwise, it multiplies the input by the factorial of (input - 1). The code calls the function with argument 5, assigns the returned result to variable result, and prints the value of result, which is 120 (since 5! = 5 * 4 * 3 * 2 * 1 = 120).",
+      "level": "medium"
+    },
+    {
+      "question": "What is the output of the following code?",
+      "code": "def is_even(number):\n    return number % 2 == 0\nprint(is_even(7))",
+      "output": "False",
+      "description": "The code defines a function called is_even that takes a number as input and checks if the number is even. It returns True if the number is divisible by 2 with no remainder, and False otherwise. The code calls the function with argument 7 and prints the returned result, which is False.",
+      "level": "medium"
+    },
+    {
+      "question": "What will be printed by the following code?",
+      "code": "x = 5\ny = 3\nif x > y:\n    print('x is greater than y')\nelif x < y:\n    print('x is less than y')\nelse:\n    print('x is equal to y')",
+      "output": "x is greater than y",
+      "description": "The code assigns the value 5 to variable x and the value 3 to variable y. It compares x and y using the if-elif-else structure. Since x is greater than y, the if block is executed, resulting in the output 'x is greater than y'. The elif and else blocks are not executed in this case.",
+      "level": "hard"
+    },
+    {
+      "question": "What is the output of this code?",
+      "code": "def fibonacci(n):\n    if n <= 1:\n        return n\n    else:\n        return fibonacci(n - 1) + fibonacci(n - 2)\nresult = fibonacci(6)\nprint(result)",
+      "output": "8",
+      "description": "The code defines a recursive function called fibonacci that calculates the Fibonacci sequence. If the input is 0 or 1, it returns the input itself. Otherwise, it recursively calculates the sum of the previous two Fibonacci numbers. The code calls the function with argument 6, assigns the returned result to variable result, and prints the value of result, which is 8 (since the 6th Fibonacci number is 8).",
+      "level": "hard"
+    },
+    {
+      "question": "What will be the output of this code?",
+      "code": "numbers = [1, 2, 3, 4, 5]\nprint(sum(numbers))",
+      "output": "15",
+      "description": "The code defines a list of numbers and then uses the sum() function to calculate the sum of all the numbers in the list. It prints the result, which is 15 (since 1 + 2 + 3 + 4 + 5 = 15).",
+      "level": "hard"
+    },
+    {
+      "question": "What is the output of the following code?",
+      "code": "def count_vowels(word):\n    vowels = 'aeiou'\n    count = 0\n    for char in word:\n        if char in vowels:\n            count += 1\n    return count\nresult = count_vowels('hello')\nprint(result)",
+      "output": "2",
+      "description": "The code defines a function called count_vowels that takes a word as input and counts the number of vowels in the word. It initializes a count variable to 0 and then iterates over each character in the word. If the character is a vowel (i.e., it is present in the vowels string), the count is incremented by 1. The code calls the function with the word 'hello', assigns the returned result to variable result, and prints the value of result, which is 2 (since 'hello' has 2 vowels: 'e' and 'o').",
+      "level": "hard"
+    }
+  ]
+  
