@@ -1,0 +1,252 @@
+[
+    {
+      "question": "What will be the output of the following code?",
+      "codeSnippet": "public class Main {\n    public static void main(String[] args) {\n        int x = 5;\n        System.out.println(++x);\n    }\n}",
+      "output": "6",
+      "description": "The code snippet increments the value of 'x' by 1 using the pre-increment operator and then prints the updated value, which is 6.",
+      "level": "Beginner"
+    },
+    {
+      "question": "What is the purpose of inheritance in Java?",
+      "codeSnippet": "",
+      "output": "",
+      "description": "Inheritance allows one class to inherit the properties and methods of another class. It promotes code reuse, modularity, and enables the creation of hierarchical relationships between classes.",
+      "level": "Easy"
+    },
+    {
+      "question": "How can you achieve multiple inheritance in Java?",
+      "codeSnippet": "",
+      "output": "",
+      "description": "Java doesn't support multiple inheritance of classes. However, you can achieve a form of multiple inheritance using interfaces, where a class can implement multiple interfaces.",
+      "level": "Medium"
+    },
+    {
+      "question": "What is method overriding in Java?",
+      "codeSnippet": "",
+      "output": "",
+      "description": "Method overriding occurs when a subclass provides its own implementation of a method that is already defined in its superclass. It allows the subclass to modify the behavior of the inherited method.",
+      "level": "Easy"
+    },
+    {
+      "question": "What is the difference between abstract classes and interfaces?",
+      "codeSnippet": "",
+      "output": "",
+      "description": "Abstract classes can have both abstract and non-abstract methods, while interfaces can only have abstract methods. Classes can extend only one abstract class but can implement multiple interfaces.",
+      "level": "Medium"
+    },
+    
+    {
+      "question": "What will be the output of the following code?",
+      "codeSnippet": "public class Main {\n    public static void main(String[] args) {\n        int x = 10;\n        System.out.println(x++);\n    }\n}",
+      "output": "10",
+      "description": "The code snippet prints the initial value of 'x', which is 10, and then increments 'x' by 1 using the post-increment operator.",
+      "level": "Beginner"
+    },
+    {
+      "question": "What is encapsulation in Java?",
+      "codeSnippet": "",
+      "output": "",
+      "description": "Encapsulation is a mechanism in Java that combines data and methods into a single unit called a class. It provides data hiding and protects the internal state of an object from direct access by other classes.",
+      "level": "Easy"
+    },
+    {
+      "question": "What is the difference between composition and inheritance?",
+      "codeSnippet": "",
+      "output": "",
+      "description": "Composition represents a 'has-a' relationship between classes, where one class contains an instance of another class as a member. Inheritance represents an 'is-a' relationship between classes, where one class inherits the properties and methods of another class.",
+      "level": "Medium"
+    },
+    {
+      "question": "What are static methods in Java?",
+      "codeSnippet": "",
+      "output": "",
+      "description": "Static methods are class-level methods that can be invoked without creating an instance of the class. They are shared among all instances of the class and can access only static variables and other static methods.",
+      "level": "Easy"
+    },
+    {
+      "question": "What is method overloading in Java?",
+      "codeSnippet": "",
+      "output": "",
+      "description": "Method overloading occurs when a class has multiple methods with the same name but different parameters. It allows methods to perform similar operations with different input parameters or return types.",
+      "level": "Medium"
+    },
+    {
+      "question": "What is the purpose of the 'this' keyword in Java?",
+      "codeSnippet": "",
+      "output": "",
+      "description": "The 'this' keyword refers to the current instance of a class. It is used to differentiate between class members and method parameters/variables with the same name, and to invoke other constructors within a class.",
+      "level": "Easy"
+    },
+    {
+      "question": "What is the role of interfaces in Java?",
+      "codeSnippet": "",
+      "output": "",
+      "description": "Interfaces define a contract that classes must adhere to. They provide a way to achieve abstraction, allow multiple inheritance of type, and enable code interoperability through interface implementation.",
+      "level": "Medium"
+    },
+    {
+      "question": "What is the 'super' keyword used for in Java?",
+      "codeSnippet": "",
+      "output": "",
+      "description": "The 'super' keyword is used to refer to the superclass of a class. It can be used to access superclass members, invoke superclass constructors, and prevent method overriding.",
+      "level": "Medium"
+    },
+    {
+      "question": "What is polymorphism in Java?",
+      "codeSnippet": "",
+      "output": "",
+      "description": "Polymorphism allows objects of different classes to be treated as objects of a common superclass. It enables methods to be invoked on objects without knowing their specific types, promoting code flexibility and reusability.",
+      "level": "Medium"
+    },
+    {
+      "question": "What is the purpose of the 'final' keyword in Java?",
+      "codeSnippet": "",
+      "output": "",
+      "description": "The 'final' keyword is used to declare entities that cannot be modified. It can be applied to classes, methods, and variables to make them uninheritable, un-overridable, or unchangeable, respectively.",
+      "level": "Easy"
+    }
+    ,
+     {
+            "question": "What will be the output of the following code?",
+            "codeSnippet": "public class Main {\n    public static void main(String[] args) {\n        System.out.println(10 / 0);\n    }\n}",
+            "output": "Error",
+            "description": "The code snippet attempts to divide 10 by 0, which is an arithmetic operation that results in an error known as 'ArithmeticException: / by zero'.",
+            "level": "Medium"
+          },
+          {
+            "question": "What will be the output of the following code?",
+            "codeSnippet": "public class Main {\n    public static void main(String[] args) {\n        int[] numbers = new int[5];\n        System.out.println(numbers[10]);\n    }\n}",
+            "output": "Error",
+            "description": "The code snippet tries to access an element at index 10 in an array of size 5, which is out of bounds. It results in an error known as 'ArrayIndexOutOfBoundsException'.",
+            "level": "Medium"
+          },
+          {
+            "question": "What will be the output of the following code?",
+            "codeSnippet": "public class Main {\n    public static void main(String[] args) {\n        try {\n            int[] numbers = {1, 2, 3};\n            System.out.println(numbers[3]);\n        } catch (Exception e) {\n            System.out.println(\"Error\");\n        }\n    }\n}",
+            "output": "Error",
+            "description": "The code snippet attempts to access an element at index 3 in an array of size 3, which is out of bounds. It throws an exception, and the catch block prints 'Error'.",
+            "level": "Medium"
+          },
+          {
+            "question": "What will be the output of the following code?",
+            "codeSnippet": "public class Main {\n    public static void main(String[] args) {\n        String str = null;\n        System.out.println(str.length());\n    }\n}",
+            "output": "Error",
+            "description": "The code snippet tries to invoke the 'length()' method on a null string reference, which results in an error known as 'NullPointerException'.",
+            "level": "Medium"
+          },
+          {
+            "question": "What will be the output of the following code?",
+            "codeSnippet": "public class Main {\n    public static void main(String[] args) {\n        try {\n            int x = 5 / 0;\n            System.out.println(\"Result: \" + x);\n        } catch (ArithmeticException e) {\n            System.out.println(\"Error: \" + e.getMessage());\n        }\n    }\n}",
+            "output": "Error: / by zero",
+            "description": "The code snippet attempts to divide 5 by 0, which is an arithmetic operation that results in an 'ArithmeticException'. The catch block catches the exception and prints the error message.",
+            "level": "Medium"
+          },
+          {
+            "question": "What will be the output of the following code?",
+            "codeSnippet": "public class Main {\n    public static void main(String[] args) {\n        try {\n            int[] numbers = {1, 2, 3};\n            System.out.println(numbers[1]);\n        } finally {\n            System.out.println(\"Finally block\");\n        }\n    }\n}",
+            "output": "2\nFinally block",
+            "description": "The code snippet successfully accesses the element at index 1 in the array 'numbers' and prints its value, which is 2. The 'finally' block always executes regardless of whether an exception occurs.",
+            "level": "Medium"
+          },
+          {
+            "question": "What will be the output of the following code?",
+            "codeSnippet": "public class Main {\n    public static void main(String[] args) {\n        try {\n            throw new Exception(\"Custom Exception\");\n        } catch (Exception e) {\n            System.out.println(e.getMessage());\n        }\n    }\n}",
+            "output": "Custom Exception",
+            "description": "The code snippet throws a custom exception with the message 'Custom Exception'. The catch block catches the exception and prints its message.",
+            "level": "Medium"
+          },
+          {
+            "question": "What will be the output of the following code?",
+            "codeSnippet": "public class Main {\n    public static void main(String[] args) throws Exception {\n        throw new Exception(\"Unhandled Exception\");\n    }\n}",
+            "output": "Unhandled Exception",
+            "description": "The code snippet throws an exception with the message 'Unhandled Exception'. Since the exception is not caught within the 'main' method, it is propagated up and eventually terminates the program.",
+            "level": "Hard"
+          },
+          {
+            "question": "What will be the output of the following code?",
+            "codeSnippet": "public class Main {\n    public static void main(String[] args) throws Exception {\n        try {\n            throw new RuntimeException(\"Runtime Exception\");\n        } catch (Exception e) {\n            System.out.println(e.getMessage());\n        } finally {\n            System.out.println(\"Finally block\");\n        }\n    }\n}",
+            "output": "Runtime Exception\nFinally block",
+            "description": "The code snippet throws a runtime exception with the message 'Runtime Exception'. The catch block catches the exception and prints its message. The 'finally' block always executes regardless of whether an exception occurs.",
+            "level": "Hard"
+          },
+          {
+            "question": "What will be the output of the following code?",
+            "codeSnippet": "public class Main {\n    public static void main(String[] args) {\n        try {\n            System.exit(0);\n        } finally {\n            System.out.println(\"Finally block\");\n        }\n    }\n}",
+            "output": "",
+            "description": "The code snippet invokes 'System.exit(0)', which terminates the program immediately. As a result, the 'finally' block is not executed, and there is no output.",
+            "level": "Hard"
+          
+      },
+          {
+            "question": "What will be the output of the following code?",
+            "codeSnippet": "public class Main {\n    public static void main(String[] args) {\n        try {\n            int x = 5 / 0;\n            System.out.println(\"Result: \" + x);\n        } catch (ArithmeticException e) {\n            System.out.println(\"Error: \" + e.getMessage());\n        }\n    }\n}",
+            "output": "Error: / by zero",
+            "description": "The code snippet attempts to divide 5 by 0, which is an arithmetic operation that results in an 'ArithmeticException'. The catch block catches the exception and prints the error message.",
+            "level": "Hard"
+          },
+          {
+            "question": "What will be the output of the following code?",
+            "codeSnippet": "public class Main {\n    public static void main(String[] args) {\n        try {\n            throw new Exception(\"Custom Exception\");\n        } catch (Exception e) {\n            System.out.println(e.getMessage());\n        }\n    }\n}",
+            "output": "Custom Exception",
+            "description": "The code snippet throws a custom exception with the message 'Custom Exception'. The catch block catches the exception and prints its message.",
+            "level": "Hard"
+          },
+          {
+            "question": "What will be the output of the following code?",
+            "codeSnippet": "public class Main {\n    public static void main(String[] args) throws Exception {\n        throw new Exception(\"Unhandled Exception\");\n    }\n}",
+            "output": "Unhandled Exception",
+            "description": "The code snippet throws an exception with the message 'Unhandled Exception'. Since the exception is not caught within the 'main' method, it is propagated up and eventually terminates the program.",
+            "level": "Hard"
+          },
+          {
+            "question": "What will be the output of the following code?",
+            "codeSnippet": "public class Main {\n    public static void main(String[] args) {\n        try {\n            System.out.println(\"Start\");\n            System.exit(0);\n        } finally {\n            System.out.println(\"Finally\");\n        }\n    }\n}",
+            "output": "Start",
+            "description": "The code snippet prints 'Start' before invoking 'System.exit(0)', which terminates the program. As a result, the 'finally' block is not executed.",
+            "level": "Medium"
+          },
+          {
+            "question": "What will be the output of the following code?",
+            "codeSnippet": "public class Main {\n    public static void main(String[] args) {\n        try {\n            int[] numbers = {1, 2, 3};\n            System.out.println(numbers[3]);\n        } catch (ArrayIndexOutOfBoundsException e) {\n            System.out.println(\"Error: Invalid index\");\n        }\n    }\n}",
+            "output": "Error: Invalid index",
+            "description": "The code snippet tries to access an element at index 3 in an array of size 3, which is out of bounds. It catches the 'ArrayIndexOutOfBoundsException' and prints an error message.",
+            "level": "Medium"
+          },
+              {
+                "question": "What will be the output of the following code?",
+                "codeSnippet": "class Main {\n    public static void main(String[] args) {\n        try {\n            String s = null;\n            System.out.println(s.length());\n        } catch (NullPointerException e) {\n            System.out.println(\"Error: Null pointer exception\");\n        }\n    }\n}",
+                "output": "Error: Null pointer exception",
+                "description": "The code snippet attempts to access the 'length()' method on a null reference 's', which results in a 'NullPointerException'. The catch block catches the exception and prints the error message.",
+                "level": "Hard"
+              },
+              {
+                "question": "What will be the output of the following code?",
+                "codeSnippet": "class Main {\n    public static void main(String[] args) {\n        try {\n            int[] numbers = new int[5];\n            System.out.println(numbers[10]);\n        } catch (ArrayIndexOutOfBoundsException e) {\n            System.out.println(\"Error: Index out of bounds\");\n        }\n    }\n}",
+                "output": "Error: Index out of bounds",
+                "description": "The code snippet tries to access an element at index 10 in an array of size 5, which is out of bounds. It catches the 'ArrayIndexOutOfBoundsException' and prints an error message.",
+                "level": "Hard"
+              },
+              {
+                "question": "What will be the output of the following code?",
+                "codeSnippet": "class Main {\n    public static void main(String[] args) {\n        try {\n            int result = 10 / 0;\n            System.out.println(\"Result: \" + result);\n        } catch (ArithmeticException e) {\n            System.out.println(\"Error: Division by zero\");\n        }\n    }\n}",
+                "output": "Error: Division by zero",
+                "description": "The code snippet attempts to divide 10 by 0, which is an arithmetic operation that results in an 'ArithmeticException'. The catch block catches the exception and prints the error message.",
+                "level": "Medium"
+              },
+              {
+                "question": "What will be the output of the following code?",
+                "codeSnippet": "class Main {\n    public static void main(String[] args) {\n        try {\n            throw new RuntimeException(\"Custom Exception\");\n        } catch (RuntimeException e) {\n            System.out.println(e.getMessage());\n        }\n    }\n}",
+                "output": "Custom Exception",
+                "description": "The code snippet throws a 'RuntimeException' with the message 'Custom Exception'. The catch block catches the exception and prints its message.",
+                "level": "Medium"
+              },
+              {
+                "question": "What will be the output of the following code?",
+                "codeSnippet": "class Main {\n    public static void main(String[] args) {\n        try {\n            int[] numbers = {1, 2, 3};\n            System.out.println(numbers[3]);\n        } catch (Exception e) {\n            System.out.println(\"Error: \" + e.getMessage());\n        }\n    }\n}",
+                "output": "Error: Index 3 out of bounds for length 3",
+                "description": "The code snippet tries to access an element at index 3 in an array of size 3, which is out of bounds. It catches the 'ArrayIndexOutOfBoundsException' (which is a subclass of 'Exception') and prints an error message.",
+                "level": "Medium"
+              }
+            ]
+        
+      
